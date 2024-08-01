@@ -6,7 +6,7 @@ import joblib
 app = Flask(__name__)
 
 # Load your trained model
-model = joblib.load('model_knn_1_ws.joblib')
+model = joblib.load('model_cat_4.joblib')
 
 # Define routes
 @app.route('/', methods=['GET'])
